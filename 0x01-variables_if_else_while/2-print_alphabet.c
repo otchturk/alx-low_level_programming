@@ -9,11 +9,11 @@
 
 int main(void)
 {
-	char c = 'a';
+	char lc;
 
-	while (c <= 'a')
+	for (lc = 'a'; lc <= 'z'; lc++)
 	{
-		putchar(c);
+		putchar(ls);
 		c++;
 	}
 	putchar('\n');
