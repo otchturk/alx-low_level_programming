@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/** 
+/**
  * main - main block
  * Description: Get a random it with 5
  * Return: 0
@@ -9,11 +9,12 @@
 
 int main(void)
 {
-	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
+	char c = "abcdefghijklmnopqrstuvwxyz";
 
-	for (i = 0; i < 26; i++)
+	while (c <= 'a')
 	{
-		putchar(alp[i]);
+		putchar(c);
+		c++;
 	}
 	putchar('\n');
 	return (0);
