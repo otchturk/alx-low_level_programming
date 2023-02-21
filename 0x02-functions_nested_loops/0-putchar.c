@@ -1,9 +1,9 @@
 #include "main.h"
 
-/*
+/**
  * main - Entry point
- * Description: the firs one
- * Return: Always 0
+ * Description: 'The answer goes here'
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
